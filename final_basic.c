@@ -4,16 +4,6 @@
 #include<time.h>
 // process : open/close booster --> ask actions --> result check --> continue_or_not --> lottery
 
-// 
-// 進度: 換圖完成，但24的時候有算錯。
-// result check area 5沒有加上booster效果，但實際上有賺到
-// 換圖 : choosen_arr reallocate, open_cost = 0;
-// 每天結束記得加一次免費抽
-// 問題：兩個booster 同時開只計算到一個
-
-
-// ************可能的問題***************** 
-// 1. user check results時輸入不合法
 void bg_of_day(int *saving, int *speed_level, int *taste_level, int *time, int *price, int boosters[], int booster_status[], int *booster_slots, int len_of_booster_slots); 
 
 // 如果有舊的booster被pop，則boosters也要扣除
